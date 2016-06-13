@@ -2,6 +2,7 @@
   "name": "seek/nlptool",
   "description": "Multi function Natural Language Processing system.",
   "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Brett Cao",
