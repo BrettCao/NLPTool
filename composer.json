@@ -1,0 +1,20 @@
+{
+  "name": "seek/nlptool",
+  "description": "Multi function Natural Language Processing system.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Brett Cao",
+      "email": "brettcaomail@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "seek/nlptool": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Seek\\NLPTool\\": "packages/seek/nlptool/src/"
+    }
+  }
+}

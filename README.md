@@ -1,2 +1,3 @@
 # NLPTool
-Multi function Natural Language Processing system.
+
+Please use this branch for Laravel 5 support.
