@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Seek\\NLPTool\\": "packages/seek/nlptool/src/"
+      "Seek\\NLPTool\\": "src"
     }
   }
 }
