@@ -6,13 +6,13 @@
  * Time: 23:17
  */
 
-namespace Seek\NLPTool\Facades;
+namespace Mozzos\NLPTool\Facades;
 
 
 class Facade extends \Illuminate\Support\Facades\Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'seek.NLPTool';
+        return 'mozzos.NLPTool';
     }
 }

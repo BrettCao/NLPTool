@@ -1,10 +1,10 @@
 <?php
 
-namespace Seek\NLPTool\Generators;
+namespace Mozzos\NLPTool\Generators;
 
 
 use Carbon\Carbon;
-use Seek\NLPTool\Contract\NLPAbstract;
+use Mozzos\NLPTool\Contract\NLPAbstract;
 
 class LTPGenerator extends NLPAbstract
 {
@@ -42,7 +42,7 @@ class LTPGenerator extends NLPAbstract
         $this->res = $this->send($this->src,LTPGenerator::URL);
 
         if (!$this->res) {
-            $this->res = [];
+            $this->res = false;
         }
         return $this;
     }

@@ -6,10 +6,10 @@
  * Time: 19:05
  */
 
-namespace Seek\NLPTool\Generators;
+namespace Mozzos\NLPTool\Generators;
 
 
-use Seek\NLPTool\Contract\NLPAbstract;
+use Mozzos\NLPTool\Contract\NLPAbstract;
 
 class BosonGenerator extends NLPAbstract
 {

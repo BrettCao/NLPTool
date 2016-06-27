@@ -1,10 +1,10 @@
 <?php
 
-namespace Seek\NLPTool\Contract;
+namespace Mozzos\NLPTool\Contract;
 
 
 use Illuminate\Support\Facades\Config;
-use Seek\NLPTool\Client;
+use Mozzos\NLPTool\Client;
 
 abstract class NLPAbstract
 {
@@ -46,6 +46,7 @@ abstract class NLPAbstract
      */
     public function get()
     {
+        if (!$this->res) return [];
         return json_decode($this->res);
     }
 

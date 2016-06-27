@@ -1,6 +1,6 @@
 <?php
 
-namespace Seek\NLPTool\Providers;
+namespace Mozzos\NLPTool\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -25,7 +25,7 @@ class NLPToolServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app['seek.NLPTool'] = $this->app->share(function ($app) {
+        $this->app['mozzos.NLPTool'] = $this->app->share(function ($app) {
             return new NLPUtils($app['config']);
         });
     }
@@ -37,6 +37,6 @@ class NLPToolServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['seek.NLPTool',\Seek\NLPTool\NLPToolServiceProvider::class];
+        return ['mozzos.NLPTool',\Mozzos\NLPTool\NLPToolServiceProvider::class];
     }
 }

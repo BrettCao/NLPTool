@@ -1,5 +1,5 @@
 {
-  "name": "seek/nlptool",
+  "name": "mozzos/nlptool",
   "description": "Multi function Natural Language Processing system.",
   "type": "library",
   "license": "MIT",
@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Seek\\NLPTool\\": "src/"
+      "Mozzos\\NLPTool\\": "src/"
     }
   }
 }

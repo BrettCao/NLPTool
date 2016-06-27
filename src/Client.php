@@ -1,5 +1,5 @@
 <?php
-namespace Seek\NLPTool;
+namespace Mozzos\NLPTool;
 
 
 class Client

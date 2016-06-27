@@ -6,13 +6,13 @@
  * Time: 14:48
  */
 
-namespace Seek\NLPTool\Presenter;
+namespace Mozzos\NLPTool\Presenter;
 
 
 use Illuminate\Support\Facades\Config;
-use Seek\NLPTool\Contract\NLPAbstract;
-use Seek\NLPTool\Generators\BosonGenerator;
-use Seek\NLPTool\Generators\LTPGenerator;
+use Mozzos\NLPTool\Contract\NLPAbstract;
+use Mozzos\NLPTool\Generators\BosonGenerator;
+use Mozzos\NLPTool\Generators\LTPGenerator;
 
 class NLPPresenter
 {

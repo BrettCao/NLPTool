@@ -1,11 +1,11 @@
 <?php
 
-namespace Seek\NLPTool;
+namespace Mozzos\NLPTool;
 
 
 use Illuminate\Config\Repository;
-use Seek\NLPTool\Contract\NLPAbstract;
-use Seek\NLPTool\Presenter\NLPPresenter as Client;
+use Mozzos\NLPTool\Contract\NLPAbstract;
+use Mozzos\NLPTool\Presenter\NLPPresenter as Client;
 
 Trait NLPTool
 {
