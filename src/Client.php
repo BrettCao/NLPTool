@@ -25,4 +25,12 @@ class Client
         curl_setopt($this->instance, CURLOPT_POSTFIELDS, $data);
         return curl_exec($this->instance);
     }
+
+    /**
+     * Close
+     */
+    public function __destruct()
+    {
+        curl_close($this->instance);
+    }
 }
